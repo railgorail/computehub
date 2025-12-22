@@ -1,12 +1,12 @@
 # computehub
 
-  1.Идея
+1.Идея
       Платформа планирования задач для пакетной и оперативной обработки данных.
 
-  2. Архитектура проекта
+2. Архитектура проекта
       Frontend (UI) -->(HTTP)--> Backend (API, Scheduler) --> PostgreSQL (jobs, status) -->  Workers (Jobs / Pods)
 
-  3. Используемые технологии (стек):
+3. Используемые технологии (стек):
      #Frontend:
        -HTML
        -CSS
@@ -52,7 +52,7 @@
        -ingress-nginx
        -host routing
 
-  4. Roadmap?
+4. Roadmap?
      
      
      
