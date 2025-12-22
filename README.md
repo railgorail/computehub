@@ -52,7 +52,7 @@
        -ingress-nginx
        -host routing
 
-  4. Stack?Roadmap?
+  4. Roadmap?
      
      
      
