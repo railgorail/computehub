@@ -9,13 +9,13 @@ form.addEventListener("submit", async (e) => {
     const name = document.getElementById("job-name").value;
     const job_type = document.getElementById("job-type").value;
 
-    await fetch(`${API_URL}/jobs`, {
+    const res = await fetch(`${API_URL}/jobs`, {
         method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, job_type })
     });
+
+    console.log("POST status:", res.status);
 
     form.reset();
     loadJobs();
